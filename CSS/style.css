@@ -43,13 +43,18 @@ body {
     transform: translateY(-2px);
 }
 
-.btn-secondary {
-    background-color: #fff;
-    color: #1d3557;
+/* ATUALIZAÇÃO: Botão da seção principal agora é verde e maior */
+.btn-hero {
+    background-color: #00b894; /* Tom de verde moderno */
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    padding: 15px 30px;
 }
 
-.btn-secondary:hover {
-    background-color: #f1faee;
+.btn-hero:hover {
+    background-color: #00a884; /* Verde um pouco mais escuro */
     transform: translateY(-2px);
 }
 
@@ -57,6 +62,7 @@ body {
     padding: 15px 30px;
     font-size: 1.1rem;
 }
+
 
 /* ======================= */
 /* CABEÇALHO (HEADER)      */
@@ -101,15 +107,16 @@ body {
     color: #e63946;
 }
 
-/* ======================= */
-/* SEÇÃO HERO (PRINCIPAL)  */
-/* ======================= */
+/* ============================================= */
+/* SEÇÃO HERO (PRINCIPAL) - ESTILOS ATUALIZADOS  */
+/* ============================================= */
 .hero-section {
-    background-image: linear-gradient(rgba(29, 53, 87, 0.7), rgba(29, 53, 87, 0.7)), url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=2070&auto=format&fit=crop');
+    /* ATUALIZAÇÃO: Nova imagem de fundo e overlay mais escuro */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.pexels.com/photos/4162451/pexels-photo-4162451.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
     background-size: cover;
     background-position: center;
     color: #fff;
-    padding: 180px 0 120px 0; /* Espaço para o header fixo */
+    padding: 180px 0 120px 0;
     text-align: center;
 }
 
@@ -118,6 +125,7 @@ body {
     font-weight: 900;
     margin-bottom: 20px;
     line-height: 1.2;
+    text-transform: uppercase; /* ATUALIZAÇÃO: Texto em maiúsculas */
 }
 
 .hero-content p {
